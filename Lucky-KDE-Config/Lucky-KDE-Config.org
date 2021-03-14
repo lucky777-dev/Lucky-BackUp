@@ -1,0 +1,85 @@
+#+latex_class: luckypdf_en
+#+language: en
+#+title: Lucky KDE config
+#+author: Sm!le42
+
+* *Global config*
+** Change the Global theme
+*Global theme --> Dark Breeze*
+** Add nice Desktop effects
+
+*Workspace behavior --> Desktop effects*:
+- *Accessibility --> Positioning aid*
+- *Virtual desktop change animation --> Cube desktop animation*
+- *Focus --> Blur the inactive*
+- *Ornaments --> Gelatin windows*, *Sheet* and *Fall into ruin*
+** Add a virtual desktop
+*Workspace behavior --> Virtual desktops --> Add --> Rename*
+** Deactivate the auto screen lock
+*Workspace behavior --> Screen lock -->* deactivate *Auto screen lock*
+** Change the lock screen picture
+
+*Workspace behavior --> Lock screen --> Appearance*
+** Change the login screen (sddm)
+
+*Startup and shutdown --> Login screen (SDDM) --> Get new login screens --> Chill for Plasma*
+** Activate the Startup with empty session option
+
+*Startup and shutdown --> Desktop session --> On connection --> Startup with empty session* 
+** Change the Splash screen animation
+
+*Startup and shutdown --> Splash screen --> Get new splash screens --> QuarksSplashDark*
+** Activate the Start indicator
+
+*Applications --> Start indicator --> Bouncing cursor*
+** Configure the Touch pad for a laptop
+
+*Input devices --> Touch pad*
+- *Touches -->* activate *Touch to click*
+- *Scrolling --> Two fingers* and *Scroll reverse*
+** Activate the Night mode
+
+*Display and screen --> Night color*
+** Configure energy management
+*Energy management:*
+- *Decrease screen brightness*: 10min
+- *Energy saving for the screen*: 25min
+- *Suspend the session*: 30min
+* *Desktop config*
+** Change your Wallpaper
+
+*Right click* on the desktop *--> Desktop configuration*
+** Add graphical components
+
+*Right click* on the desktop *--> Add graphical components*:
+- *Hard drive monitoring*
+- *Hard drive space usage*
+- *Processor monitoring*
+- *Network monitoring*
+- *Notes*
+* *Taskbar config*
+** Organize your Menu
+
+*Right click* on the start button (taskbar on the left), then choose *Configure applications launcher*
+- *General --> Sort alphabetically*
+- *Active tabs -->* drag and drop the items in this order: "\(\mintinline{java}{Applications-Computer-Favorites-History-Exit}\)"
+** Hide useless icons
+
+*Right click* on the white little *up arrow* in the taskbar on the right (just on the left of the hour), then choose *Configure miniatures box*
+
+Select the icons you want to *Always show, show when used, always hide, deactivate*
+* *Dolphin config*
+
+*Dolphin --> hamburger menu --> Configure Dolphin*:
+- *General --> Behavior -->* deactivate *Show Selection indicator*
+- *Start-up -->* deactivate *Open new folders in tabs*
+* *Kate config*
+
+*Kate --> Configuration --> Configure Kate*:
+- *Appearance --> Advanced --> Highlight the range between the selected parentheses*
+- *Fonts and color --> Default schema for Kate --> Breeze Dark*
+- *Modification --> Automatic braces --> Activate automatic braces --> <>(){}[]*
+- *Open/Save -->* deactivate *Add a new line at the end of the file when saving*
+
+* *LibreOffice config*
+*LibreOffice Writer --> Tools --> Options --> Display --> Icon style --> Breeze Dark*
